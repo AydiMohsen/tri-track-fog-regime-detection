@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Backup & OS files
+*.bak
+Thumbs.db
+.DS_Store
+
+# Keep unpublished manuscript & LaTeX build files private
+*.tex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Optional: ignore intermediate smoke-test output folders
+results_clean/
+results_clean_full/
+results_extra/
+results_final/
